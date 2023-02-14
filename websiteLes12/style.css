@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: #FF0000;
+	height: 100px;
+}
+
+#footer {
+	background-color: #0000FF;
+	height: 50px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	width: 25%;
+	height: 100px;
+	text-align: center;
+}
+
+#cell1-1 {
+	background-color: #FFC300;
+}
+
+#cell1-3 {
+	background-color: #FF5733;
+}
+
+#cell2-1 {
+	background-color: #C70039;
+}
+
+#cell2-3 {
+	background-color: #900C3F;
+}
+
+#cell3-1 {
+	background-color: #581845;
+}
+
+#cell3-3 {
+	background-color: #900C3F;
+}
+
+#cell4-1 {
+	background-color: #CB4335;
+}
+
+#cell4-3 {
+	background-color: #FF5733;
+}
+
+td img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#cell1-2 img {
+	background-color: #7D3C98;
+}
+
+#cell1-4 img {
+	background-color: #2E86C1;
+}
+
+#cell2-2 img {
+	background-color: #138D75;
+}
+
+#cell2-4 img {
+	background-color: #1E8449;
+}
+
+#cell3-2 img {
+	background-color: #F1C40F;
+}
+
+#cell3-4 img {
+	background-color: #B7950B;
+}
+
+#cell4-2 img {
+	background-color: #D7DBDD;
+}
+
+#cell4-4 img {
+	background-color: #616A6B;
