@@ -7,13 +7,11 @@ body {
 #header {
 	background-color: #FF0000;
 	height: 100px;
-	color: white;
 }
 
 #footer {
 	background-color: #0000FF;
 	height: 50px;
-	color: white;
 }
 
 table {
