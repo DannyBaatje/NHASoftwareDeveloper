@@ -1,0 +1,49 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url('afbeeldingen/amsterdam.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 2em;
+}
+
+.left-section {
+  width: 33.33%;
+  float: left;
+}
+
+.right-section {
+  width: 66.66%;
+  float: right;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.right-section img {
+  float: right;
+  max-width: 200px;
+  margin: 0 0 20px 20px;
+}
+
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    float: none;
+  }
+
+  .right-section img {
+    float: none;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+}
